@@ -1,0 +1,168 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "row",
+      "padding": 20,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        disabled={false}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "black",
+            "fontSize": 32,
+          }
+        }
+      >
+        #
+        123456
+         
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        disabled={false}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "grey",
+            "fontSize": 32,
+          }
+        }
+      >
+        Delivery
+      </Text>
+    </View>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      disabled={false}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "grey",
+          "fontSize": 22,
+        }
+      }
+    >
+      Received 
+      12:00pm
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      disabled={false}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "grey",
+          "fontSize": 22,
+          "paddingTop": 20,
+        }
+      }
+    >
+      Confirmation Code
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      disabled={false}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "black",
+          "fontSize": 30,
+          "fontWeight": "100",
+        }
+      }
+    >
+      123456
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      disabled={false}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "black",
+          "fontSize": 20,
+          "paddingTop": 20,
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        disabled={false}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "fontWeight": "bold",
+            },
+          ]
+        }
+      >
+        Special Instructions: 
+      </Text>
+      instructions
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      disabled={false}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "grey",
+          "fontSize": 20,
+          "fontWeight": "100",
+        }
+      }
+    />
+  </View>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    disabled={false}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "black",
+        "flex": 1,
+        "fontSize": 22,
+        "paddingTop": 10,
+        "textAlign": "right",
+      }
+    }
+  >
+    customer_name
+    (123) 456 789
+    Address
+    user_apartment
+    user_cross_street
+  </Text>
+</View>
+`;

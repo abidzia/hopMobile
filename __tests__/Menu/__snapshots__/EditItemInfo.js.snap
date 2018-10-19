@@ -1,0 +1,207 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "flex": 0.5,
+      "flexDirection": "row",
+      "justifyContent": "space-between",
+      "padding": 25,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "maxWidth": 420,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      disabled={false}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#f57e20",
+          "fontSize": 26,
+        }
+      }
+    >
+      Edit
+       Item
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      disabled={false}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "darkgrey",
+          "fontSize": 13,
+          "marginTop": 20,
+        }
+      }
+    >
+      Name
+    </Text>
+    <TextInput
+      onChangeText={[Function]}
+      style={
+        Object {
+          "borderBottomColor": "lightgrey",
+          "borderBottomWidth": 1,
+          "color": "black",
+          "fontSize": 17,
+          "height": 45,
+          "width": 400,
+        }
+      }
+      underlineColorAndroid="transparent"
+      value="item name"
+    />
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      disabled={false}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "darkgrey",
+          "fontSize": 13,
+          "marginTop": 20,
+        }
+      }
+    >
+      Description
+    </Text>
+    <TextInput
+      onChangeText={[Function]}
+      style={
+        Object {
+          "borderBottomColor": "lightgrey",
+          "borderBottomWidth": 1,
+          "color": "black",
+          "fontSize": 17,
+          "height": 45,
+          "width": 400,
+        }
+      }
+      underlineColorAndroid="transparent"
+      value="description"
+    />
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      disabled={false}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "darkgrey",
+          "fontSize": 13,
+          "marginTop": 20,
+        }
+      }
+    >
+      Price
+    </Text>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+        }
+      }
+    >
+      <TextInput
+        defaultValue="$"
+        editable={false}
+        style={
+          Array [
+            Object {
+              "borderBottomColor": "lightgrey",
+              "borderBottomWidth": 1,
+              "color": "black",
+              "fontSize": 17,
+              "height": 45,
+              "width": 400,
+            },
+            Object {
+              "color": "darkgrey",
+              "width": 20,
+            },
+          ]
+        }
+        underlineColorAndroid="transparent"
+      />
+      <TextInput
+        keyboardType="numeric"
+        onChangeText={[Function]}
+        style={
+          Array [
+            Object {
+              "borderBottomColor": "lightgrey",
+              "borderBottomWidth": 1,
+              "color": "black",
+              "fontSize": 17,
+              "height": 45,
+              "width": 400,
+            },
+            Object {
+              "width": 380,
+            },
+          ]
+        }
+        underlineColorAndroid="transparent"
+        value="50"
+      />
+    </View>
+    <TextInput
+      onChangeText={[Function]}
+      placeholder="Serving"
+      placeholderTextColor="darkgrey"
+      style={
+        Array [
+          Object {
+            "borderBottomColor": "lightgrey",
+            "borderBottomWidth": 1,
+            "color": "black",
+            "fontSize": 17,
+            "height": 45,
+            "width": 400,
+          },
+          Object {
+            "marginTop": 20,
+          },
+        ]
+      }
+      underlineColorAndroid="transparent"
+      value={1}
+    />
+    <TextInput
+      onChangeText={[Function]}
+      placeholder="Minimum Serving"
+      placeholderTextColor="darkgrey"
+      style={
+        Array [
+          Object {
+            "borderBottomColor": "lightgrey",
+            "borderBottomWidth": 1,
+            "color": "black",
+            "fontSize": 17,
+            "height": 45,
+            "width": 400,
+          },
+          Object {
+            "marginTop": 20,
+          },
+        ]
+      }
+      underlineColorAndroid="transparent"
+      value={1}
+    />
+  </View>
+</View>
+`;

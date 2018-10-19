@@ -1,0 +1,3 @@
+let global = {
+    button: null
+}

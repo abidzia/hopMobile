@@ -1,0 +1,66 @@
+{
+  "name": "hop",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "ipad": "react-native run-ios --simulator 'iPad Air'",
+    "test": "node node_modules/jest/bin/jest.js --watch",
+    "precommit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.js": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "dependencies": {
+    "axios": "^0.16.2",
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1",
+    "react": "16.0.0-alpha.12",
+    "react-native": "^0.46.3",
+    "react-native-responsive-screen": "^1.1.9",
+    "react-native-check-box": "^2.1.5",
+    "react-native-datepicker": "^1.6.0",
+    "react-native-dropdown-menu": "^1.1.0",
+    "react-native-image-picker": "https://github.com/Sarmad93/react-native-image-picker.git#develop",
+    "react-native-material-dropdown": "^0.3.1",
+    "react-native-material-switch": "0.0.4",
+    "react-native-modal": "^2.5.0",
+    "react-native-modal-datetime-picker": "^4.8.0",
+    "react-native-modalbox": "^1.4.2",
+    "react-native-platform-touchable": "^1.1.1",
+    "react-native-popup-menu": "^0.8.0",
+    "react-native-simple-radio-button": "^2.6.0",
+    "react-native-svg": "^5.4.1",
+    "react-native-vector-icons": "^4.2.0",
+    "react-navigation": "^1.0.0-beta.11",
+    "react-redux": "^5.0.5",
+    "redux": "^3.7.2",
+    "redux-logger": "^3.0.6",
+    "tcomb-form-native": "^0.6.9",
+    "victory-native": "^0.14.0"
+  },
+  "devDependencies": {
+    "babel-jest": "20.0.3",
+    "babel-preset-react-native": "2.1.0",
+    "husky": "^0.14.3",
+    "jest": "20.0.4",
+    "lint-staged": "^4.0.3",
+    "prettier": "^1.5.3",
+    "react-test-renderer": "16.0.0-alpha.12",
+    "geolocation-distance-between": "^0.1.0",
+    "get-haversine-distance": "^1.0.0",
+    "haversine": "^1.1.0",
+    "react-native-maps": "^0.22.0"
+  },
+  "jest": {
+    "preset": "react-native",
+    "transformIgnorePatterns": [
+      "node_modules/(?!victory-native|react-native-orientation)/"
+    ]
+  }
+}

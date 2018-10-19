@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "borderBottomColor": "#ccc",
+      "borderBottomWidth": 0.5,
+      "borderTopColor": "#ccc",
+      "borderTopWidth": 0.5,
+      "flexDirection": "row",
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    disabled={false}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "fontSize": 18,
+          "marginVertical": 20,
+        },
+        Object {
+          "flex": 1,
+          "marginLeft": 25,
+        },
+      ]
+    }
+  >
+    Item
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    disabled={false}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "fontSize": 18,
+          "marginVertical": 20,
+        },
+        Object {
+          "marginRight": 40,
+          "textAlign": "right",
+        },
+      ]
+    }
+  >
+    Quantity
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    disabled={false}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "fontSize": 18,
+          "marginVertical": 20,
+        },
+        Object {
+          "marginRight": 25,
+          "textAlign": "right",
+        },
+      ]
+    }
+  >
+    Amount
+  </Text>
+</View>
+`;
